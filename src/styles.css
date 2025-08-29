@@ -1,2 +1,13 @@
 @import "tailwindcss";
 @import "./theme.scss";
+@import 'ng-zorro-antd/ng-zorro-antd.min.css';
+@import "ng-zorro-antd/ng-zorro-antd.dark.css";
+@import "ng-zorro-antd/ng-zorro-antd.compact.css";
+@import "ng-zorro-antd/ng-zorro-antd.aliyun.css";
+
+@import "./assets/theme/dark.scss";
+
+/* Aqui você pode sobrescrever variáveis específicas ou ajustes por tema */
+.dark-theme {
+    background: var(--bg-primary);
+}
